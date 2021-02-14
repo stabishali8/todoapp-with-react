@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import Todos from './Todos';
 import AddTodo from './AddTodo';
 
-class App extends Component {
+class App extends Component 
+{
   state = {
     todos:[
       {id:1, content:'buy some milk'},
